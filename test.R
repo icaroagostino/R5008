@@ -2,7 +2,7 @@ library(httr)
 library(magrittr)
 library(jsonlite)
 
-POST('http://localhost:1026/fit.prob',
+POST('http://localhost:3030/fit.prob',
 	encode = 'json',
 	body = list(y = c(1:50))
 	) %>% 
