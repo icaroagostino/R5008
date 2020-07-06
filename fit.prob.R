@@ -30,5 +30,5 @@ fit.prob <- function(y){
   result <- get(names(sort(results[["aic"]])[1]))
   
   return(result)
-      
+  
 }
